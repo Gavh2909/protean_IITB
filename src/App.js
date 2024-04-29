@@ -46,7 +46,20 @@ function App() {
     }
   };
 
+  const [editCard, setEditForm] = useState(null);
   
+  const handleEditCardPopUp =(card, index) =>{
+    setEditForm({card, index});
+    setShowForm(true);
+  }
+
+  const handleUpdateCard =(title, description) =>{
+    // Here I will implement edit form functionality
+  }
+
+  const handleDeleteCardPopUp=(index)=>{
+     //implementing delete a perticular card 
+  }
   return (
     <div className="container mt-4">
       <div className="row">

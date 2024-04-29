@@ -22,9 +22,19 @@ export const AddCardPopUp = ({ handleAddNewCard, handleCloseForm, column }) => {
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Title:</label>
-          <input type="text" value={title} required onChange={(e)=> setTitle(e.target.value)} />
+          <input
+            type="text"
+            value={title}
+            required
+            onChange={(e) => setTitle(e.target.value)}
+          />
           <label>Desxriction:</label>
-          <textarea rows="3" value={description} onChange={(e)=>setDescription(e.target.value)} required></textarea>
+          <textarea
+            rows="3"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            required
+          ></textarea>
         </div>
         <button type="submit" className="btn btn-primary">
           Add Card
