@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/protean_IITB/static/css/main.ff02f4b5.css",
+    "main.js": "/protean_IITB/static/js/main.83a2986c.js",
+    "static/js/453.8b712f0b.chunk.js": "/protean_IITB/static/js/453.8b712f0b.chunk.js",
+    "index.html": "/protean_IITB/index.html",
+    "main.ff02f4b5.css.map": "/protean_IITB/static/css/main.ff02f4b5.css.map",
+    "main.83a2986c.js.map": "/protean_IITB/static/js/main.83a2986c.js.map",
+    "453.8b712f0b.chunk.js.map": "/protean_IITB/static/js/453.8b712f0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff02f4b5.css",
+    "static/js/main.83a2986c.js"
+  ]
+}
