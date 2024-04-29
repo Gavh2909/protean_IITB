@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const AddCardPopUp = ({ handleAddNewCard, handleCloseForm }) => {
+export const AddCardPopUp = ({ handleAddNewCard, handleCloseForm, column }) => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
@@ -11,7 +11,7 @@ export const AddCardPopUp = ({ handleAddNewCard, handleCloseForm }) => {
       alert("Please enter title and description.");
       return;
     }
-    handleAddNewCard(title, description);
+    handleAddNewCard(title, description, column);
     setTitle("");
     setDescription("");
     handleCloseForm();
